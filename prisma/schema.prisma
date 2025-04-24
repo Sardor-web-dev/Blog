@@ -15,6 +15,7 @@ model User {
   posts Post[]
 }
 
+
 model Post {
   id        Int     @id @default(autoincrement())
   title     String
