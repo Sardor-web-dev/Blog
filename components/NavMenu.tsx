@@ -9,7 +9,7 @@ const Auth = () => {
 		return (
 			<>
 				<p>{session.user?.name}</p>
-				<button className="text-white" onClick={() => signOut()}>
+				<button className="text-white cursor-pointer" onClick={() => signOut()}>
 					sign out
 				</button>
 			</>
@@ -19,7 +19,7 @@ const Auth = () => {
 	return (
 		<>
 			<p>Not Signed in</p>
-			<button className="text-white" onClick={() => signIn()}>
+			<button className="text-white cursor-pointer" onClick={() => signIn()}>
 				sign in
 			</button>
 		</>
